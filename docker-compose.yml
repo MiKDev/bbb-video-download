@@ -8,4 +8,4 @@ services:
       - /var/bigbluebutton/published/presentation:/var/bigbluebutton/published/presentation
       - ./tmp:/home/bigbluebutton/tmp
     security_opt:
-      - seccomp:"./chrome.json"
+      - seccomp:chrome.json
